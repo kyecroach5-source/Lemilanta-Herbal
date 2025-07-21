@@ -1,11 +1,68 @@
 
- body {
-  background-image: url(img/Untitled-6.jpg);    /* Replace with your actual image path */
-  background-position: center center;         /* Center the image */
-  background-repeat: no-repeat;               /* Prevent tiling */
-  background-size: cover;                     /* Scale image to cover the display */
-  background-attachment: fixed;               /* Optional: keep background fixed during scroll */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5e9d5;
+  color: #333;
+  line-height: 1.6;
+}
+
+     .p1{
+    background-color: #ffff;
+    border: 5px solid #f6f8d4;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(251, 15, 15, 0.05);
+    border-radius: 10px;
+
+}
+
+
+header {
+  background: #077023;
+  color: #f8f6f6;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header h2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+nav {
+  background: #6b8d74;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+
+nav ul li a {
+  color: rgb(247, 245, 245);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #077023
+}
+
 
 
 .image-container {
