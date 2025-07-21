@@ -1,9 +1,9 @@
 body {
-    background-image:url(Untitled-6.jpg) ; 
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:contain ;
-    background-size: cover; 
+  background-image: url(img/Untitled-6.jpg);    /* Replace with your actual image path */
+  background-position: center center;         /* Center the image */
+  background-repeat: no-repeat;               /* Prevent tiling */
+  background-size: cover;                     /* Scale image to cover the display */
+  background-attachment: fixed;               /* Optional: keep background fixed during scroll */
 }
 .image-container {
     position: relative;
