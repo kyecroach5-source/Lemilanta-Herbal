@@ -121,7 +121,7 @@ nav ul {
 nav ul li a {
   color: rgb(247, 245, 245);
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 20px;
   border-radius: 5px;
   transition: background 0.3s;
 }
