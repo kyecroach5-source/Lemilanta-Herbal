@@ -14,12 +14,12 @@ body {
 
      .p1{
     background-color: #ffff;
-    border: 5px solid #f6f8d4;
-    padding: 10px;
-    margin: 20px auto;
+    border: 2.5px solid #f6f8d4;
+    padding: 5px;
+    margin: 10px auto;
     max-width: 900px;
     box-shadow: 0 4px 12px rgba(251, 19, 19, 0.05);
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
