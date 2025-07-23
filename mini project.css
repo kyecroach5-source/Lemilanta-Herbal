@@ -22,7 +22,13 @@ body {
     border-radius: 5px;
 
 }
-
+footer{
+  background-color: #101010;
+  color: #f3f8fb;
+  text-align: center;
+  padding: 1rem;
+  font-size: 10px;
+}
 
 header {
   background: #077023;
